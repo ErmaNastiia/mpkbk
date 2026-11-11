@@ -6,7 +6,7 @@ import News from "./components/News";
 import Tournaments from "./components/Tournaments";
 import Photos from "./components/Photos";
 import Videos from "./components/Videos";
-import Sponsors from "./components/Sponsors";
+// import Sponsors from "./components/Sponsors"; // temporarily hidden
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -25,7 +25,7 @@ function App() {
         <Tournaments />
         <Photos />
         <Videos />
-        <Sponsors />
+        {/* <Sponsors /> temporarily hidden */}
         <Contact />
       </main>
 

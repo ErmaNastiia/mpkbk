@@ -124,6 +124,5 @@ export const navLinks = [
   { key: "tournaments", href: "#tournaments" },
   { key: "photos", href: "#photos" },
   { key: "videos", href: "#videos" },
-  { key: "sponsors", href: "#sponsors" },
   { key: "contacts", href: "#contacts" },
 ];
