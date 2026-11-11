@@ -1,4 +1,3 @@
-import wordmarkBanner from "../assets/wordmark-banner.webp";
 import { videos } from "../data/content";
 import { useLanguage } from "../i18n/LanguageContext";
 
@@ -20,13 +19,6 @@ export default function Videos() {
 
   return (
     <section id="videos" className="section videos">
-      <img
-        src={wordmarkBanner}
-        alt=""
-        className="videos__bg"
-        aria-hidden="true"
-      />
-
       <div className="section-inner">
         <p className="eyebrow">{t.videos.eyebrow}</p>
         <h2>{t.videos.heading}</h2>

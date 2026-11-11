@@ -1,12 +1,16 @@
+import wordmarkBanner from "../assets/wordmark-banner.webp";
 import { useLanguage } from "../i18n/LanguageContext";
 
 // Automatically picks up every image dropped into src/assets/photos — no
 // code changes needed to add or remove photos, just add/remove the file.
 // Sorted by filename, so name files photo-1, photo-2, ... to control order.
-const photoModules = import.meta.glob("../assets/photos/*.{avif,webp,jpg,jpeg,png,gif}", {
-  eager: true,
-  import: "default",
-});
+const photoModules = import.meta.glob(
+  "../assets/photos/*.{avif,webp,jpg,jpeg,png,gif}",
+  {
+    eager: true,
+    import: "default",
+  },
+);
 
 const photos = Object.keys(photoModules)
   .sort()
@@ -18,6 +22,12 @@ export default function Photos() {
 
   return (
     <section id="photos" className="section photos">
+      <img
+        src={wordmarkBanner}
+        alt=""
+        className="photos__bg"
+        aria-hidden="true"
+      />
       <div className="section-inner">
         <p className="eyebrow">{t.photos.eyebrow}</p>
         <h2>{t.photos.heading}</h2>

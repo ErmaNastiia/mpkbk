@@ -92,16 +92,17 @@ export const translations = {
       // One entry per video in data/content.js `videos`, matched by
       // position. Leave title "" to fall back to titlePrefix + id.
       items: [
-        { title: “Making CS Better” },
-        { title: “BetBoom LanDaLan #2 Announcement” },
-        { title: “What's Next After CIS LAN?” },
+        { title: "Making CS Better" },
+        { title: "BetBoom LanDaLan #2 Announcement" },
+        { title: "What's Next After CIS LAN?" },
+        {
+          title: "How Counter-Strike Ruined My Life, Then Gave Me a New One...",
+        },
+        { title: "CIS LAN Is One Step Away from a MAJOR" },
         {
           title:
-            “How Counter-Strike Ruined My Life, Then Gave Me a New One...”,
+            "First LAN: electroNic, csgolounge, cheatbanned vs. csgolucky, wild delays—CIS LAN #1",
         },
-        { title: “CIS LAN Is One Step Away from a MAJOR” },
-        { title: "
-First LAN: electroNic, csgolounge, cheatbanned vs. csgolucky, wild delays—CIS LAN #1" },
       ],
     },
     sponsors: {
@@ -224,8 +225,10 @@ First LAN: electroNic, csgolounge, cheatbanned vs. csgolucky, wild delays—CIS 
             "Как Counter-Strike разрушил мою жизнь, а потом подарил новую...",
         },
         { title: "CIS LAN в шаге от MAJOR" },
-        { title: "
-Первый LAN electroNic, csgolounge, cheatbanned vs csgolucky, дикие задержки - CIS LAN #1" },
+        {
+          title:
+            "Первый LAN electroNic, csgolounge, cheatbanned vs csgolucky, дикие задержки - CIS LAN #1",
+        },
       ],
     },
     sponsors: {
