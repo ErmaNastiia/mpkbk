@@ -32,9 +32,10 @@ export default function Videos() {
         <h2>{t.videos.heading}</h2>
 
         <div className="videos__grid">
-          {videos.map((video) => {
+          {videos.map((video, i) => {
             const src = resolveEmbedUrl(video.embedUrl);
-            const title = `${t.videos.titlePrefix}${video.id}`;
+            const copy = t.videos.items?.[i];
+            const title = copy?.title || `${t.videos.titlePrefix}${video.id}`;
             return (
               <div className="video-card" key={video.id}>
                 <div className="video-card__frame">

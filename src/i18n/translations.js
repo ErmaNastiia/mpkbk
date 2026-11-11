@@ -53,7 +53,8 @@ export const translations = {
         {
           date: "Sep 29 – Oct 2, 2026",
           title: "WINLINE MPKBK CIS LAN Season 8",
-          excerpt: "A CS2 LAN in Saint Petersburg — $40,000 prize pool, 16 teams.",
+          excerpt:
+            "A CS2 LAN in Saint Petersburg — $40,000 prize pool, 16 teams.",
           body: [
             "The tournament ran **September 29 – October 2, 2026** at RES Space in Saint Petersburg, backed by Winline.",
             "Prize pool — **$40,000**.",
@@ -88,6 +89,20 @@ export const translations = {
       heading: "Videos",
       addEmbedLabel: "Add embed link",
       titlePrefix: "Clip title placeholder #",
+      // One entry per video in data/content.js `videos`, matched by
+      // position. Leave title "" to fall back to titlePrefix + id.
+      items: [
+        { title: “Making CS Better” },
+        { title: “BetBoom LanDaLan #2 Announcement” },
+        { title: “What's Next After CIS LAN?” },
+        {
+          title:
+            “How Counter-Strike Ruined My Life, Then Gave Me a New One...”,
+        },
+        { title: “CIS LAN Is One Step Away from a MAJOR” },
+        { title: "
+First LAN: electroNic, csgolounge, cheatbanned vs. csgolucky, wild delays—CIS LAN #1" },
+      ],
     },
     sponsors: {
       eyebrow: "06 — Sponsors",
@@ -162,7 +177,8 @@ export const translations = {
         {
           date: "29 сентября – 2 октября 2026",
           title: "WINLINE MPKBK CIS LAN Season 8",
-          excerpt: "Турнир по CS2 в Санкт-Петербурге — $40 000 призовых, 16 команд.",
+          excerpt:
+            "Турнир по CS2 в Санкт-Петербурге — $40 000 призовых, 16 команд.",
           body: [
             "Турнир прошёл с **29 сентября по 2 октября 2026 года** в Санкт-Петербурге, на площадке RES Space, при поддержке Winline.",
             "Призовой фонд — **$40 000**.",
@@ -197,6 +213,20 @@ export const translations = {
       heading: "Видео",
       addEmbedLabel: "Добавьте ссылку",
       titlePrefix: "Заглушка названия клипа №",
+      // По одной записи на видео из data/content.js `videos`, в том же
+      // порядке. Пустой title "" — заглушка titlePrefix + id.
+      items: [
+        { title: "Делаем CS лучше" },
+        { title: "Анонс BetBoom LanDaLan #2" },
+        { title: "Решалы после CIS LAN?" },
+        {
+          title:
+            "Как Counter-Strike разрушил мою жизнь, а потом подарил новую...",
+        },
+        { title: "CIS LAN в шаге от MAJOR" },
+        { title: "
+Первый LAN electroNic, csgolounge, cheatbanned vs csgolucky, дикие задержки - CIS LAN #1" },
+      ],
     },
     sponsors: {
       eyebrow: "06 — Спонсоры",

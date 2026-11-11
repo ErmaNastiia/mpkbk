@@ -29,6 +29,7 @@ export const about = {
 export const news = [
   {
     id: 1,
+    title: "",
     embedUrl: "https://www.youtube.com/watch?v=E5uutX_WI74",
   },
   { id: 2 },
@@ -57,8 +58,8 @@ export const tournaments = [
 // Paste a real embed URL into `embedUrl` to make a card live — e.g.
 // https://www.youtube.com/embed/VIDEO_ID. If you paste YouTube's full
 // "Share > Embed" <iframe> code instead, that's fine too: the video card
-// automatically pulls the real URL out of it. Titles come from
-// translations.js (videos.titlePrefix + id) unless you set one here.
+// automatically pulls the real URL out of it. Titles (per language) live
+// in translations.js (videos.items[i].title), matched by position.
 export const videos = [
   {
     id: 1,
